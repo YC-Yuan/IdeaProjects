@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc320a61-cf92-4998-a5ee-3cbb1660f7c6" name="Default Changelist" comment="" />
+    <list default="true" id="dc320a61-cf92-4998-a5ee-3cbb1660f7c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Fighting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GameMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Character$Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Character$block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/MapPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/MapReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/PRINT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/PRINT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapPrint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PRINT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PRINT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +50,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1S0KBu4EDZ65GabtFO7gH3jIDzd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -50,7 +75,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,7 +90,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapPrint">
+  <component name="RunManager" selected="Application.GameMain">
+    <configuration name="GameMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameMain" />
+      <module name="Project_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MapPrint" />
       <module name="Project_1" />
@@ -88,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameMain" />
         <item itemvalue="Application.MapPrint" />
         <item itemvalue="Application.MapReading" />
         <item itemvalue="Application.test" />
@@ -119,10 +153,32 @@
       <workItem from="1571719695606" duration="46000" />
       <workItem from="1571723689643" duration="30000" />
       <workItem from="1571735914119" duration="575000" />
+      <workItem from="1571902171025" duration="15000" />
+      <workItem from="1571905180385" duration="119000" />
+      <workItem from="1571905453902" duration="3267000" />
+      <workItem from="1571961651758" duration="1009000" />
+      <workItem from="1571962703937" duration="3171000" />
+      <workItem from="1571969075241" duration="4421000" />
+      <workItem from="1571979714243" duration="2733000" />
+      <workItem from="1571982476486" duration="6367000" />
+      <workItem from="1572003166331" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
