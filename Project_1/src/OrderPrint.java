@@ -1,7 +1,7 @@
-//专门用来回应-help
-
-public class OrderPrint {
-    public static void helpPrint() {
+//对查询性指令发出反应
+class OrderPrint {
+    //-help，查询帮助文档
+    static void helpPrint() {
         System.out.println("欢迎来到魔塔游戏:D\n" +
                 "这是一款地下城冒险游戏，你要操控勇者打怪提升属性，击败魔王获得胜利!\n" +
                 "\n" +
@@ -35,5 +35,98 @@ public class OrderPrint {
                 "拾取第五层的最终宝物即可获胜\n");
     }
 
+    //-f，查询当前楼层的怪物信息、击败它的损血(输入楼层、勇者属性)
+    static void fPrint(String[][] mapCurrentFloor, int healthPoint, int attackPoint, int defencePoint) {
+        //打印头表
+        System.out.println("怪物简称\t\t怪物名称\t\t血量\t攻击\t防御\t击败损血");
+        //检测现在有哪些怪物
+        boolean c = false; boolean d = false; boolean e = false; boolean f = false; boolean F = false;
+        boolean g = false; boolean h = false; boolean x = false; boolean z = false;
+        for (int i = 0; i <= 12; i++) {
+            for (int j = 0; j <= 12; j++) {
+                switch (mapCurrentFloor[i][j]) {
+                    case "c":
+                        c = true; break;
+                    case "d":
+                        d = true; break;
+                    case "e":
+                        e = true; break;
+                    case "f":
+                        f = true; break;
+                    case "F":
+                        F = true; break;
+                    case "g":
+                        g = true; break;
+                    case "h":
+                        h = true; break;
+                    case "x":
+                        x = true; break;
+                    case "z":
+                        z = true; break;
+                }
+            }
+        }
+        //有哪些怪物打印哪些信息
+        if (c) fightPlanGreen(healthPoint, attackPoint, defencePoint);
+        if (d) fightPlanRed(healthPoint, attackPoint, defencePoint);
+        if (e) fightPlanBlack(healthPoint, attackPoint, defencePoint);
+        if (f) fightPlanBat(healthPoint, attackPoint, defencePoint);
+        if (F) fightPlanBigBat(healthPoint, attackPoint, defencePoint);
+        if (g) fightPlanSkeleton(healthPoint, attackPoint, defencePoint);
+        if (h) fightPlanSkeletonSoldier(healthPoint, attackPoint, defencePoint);
+        if (x) fightPlanBoss(healthPoint, attackPoint, defencePoint);
+        if (z) fightPlanStone(healthPoint, attackPoint, defencePoint);
+        if (!(c || d || e || f || F || g || h || x || z)) System.out.println("当前楼层怪物已全部清除~");
+    }
 
+    private static void fightPlanGreen(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("绿", "绿史莱姆", 50, 20, 1, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanRed(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("红", "红史莱姆", 80, 30, 1, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanBlack(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("黑", "黑史莱姆", 200, 45, 15, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanBat(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("蝙", "蝙蝠", 100, 35, 5, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanBigBat(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("大", "大蝙蝠", 200, 60, 25, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanSkeleton(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("骷", "骷髅人", 120, 70, 0, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanSkeletonSoldier(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("兵", "骷髅士兵", 200, 100, 5, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanBoss(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("魔", "魔王", 350, 150, 25, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlanStone(int healthPoint, int attackPoint, int defencePoint) {
+        fightPlan("石", "石头人", 70, 60, 50, healthPoint, attackPoint, defencePoint);
+    }
+
+    private static void fightPlan(String shortName, String name, int heal, int atk, int def, int healthPoint, int attackPoint, int defencePoint) {
+        int originHealth = healthPoint; int originHeal = heal; int healthLoss;
+        if (attackPoint <= def)
+            System.out.println(shortName + "\t\t\t" + name + "\t\t" + originHeal + "\t\t" + atk + "\t\t" + def + "\t\t" + "无法攻击");
+        else while (heal > 0) {
+            healthLoss = Math.max((atk - defencePoint), 0); healthPoint = healthPoint - healthLoss;
+            healthLoss = Math.max((attackPoint - def), 0); heal = heal - healthLoss;
+        }
+        int needHealth = originHealth - healthPoint;
+        if (needHealth > originHealth)
+            System.out.println(shortName + "\t\t\t" + name + "\t\t" + originHeal + "\t\t" + atk + "\t\t" + def + "\t\t" + "打不过");
+        else
+            System.out.println(shortName + "\t\t\t" + name + "\t\t" + originHeal + "\t\t" + atk + "\t\t" + def + "\t\t" + needHealth);
+    }
 }

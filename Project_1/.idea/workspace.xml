@@ -2,23 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc320a61-cf92-4998-a5ee-3cbb1660f7c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Fighting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunctionalItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrderPrint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Character$Monster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Character$block.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Character.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1/MapPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1/MapReading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1/PRINT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/PRINT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project_1/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapReading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PRINT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PRINT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/map/4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Fighting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/Fighting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/GameMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/GameMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/MapFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/MapFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/OrderPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/OrderPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Setup$Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Setup$Brave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Setup$Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Setup$Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fighting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunctionalItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionalItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrderPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Setup.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,6 +162,14 @@
       <workItem from="1571979714243" duration="2733000" />
       <workItem from="1571982476486" duration="6367000" />
       <workItem from="1572003166331" duration="595000" />
+      <workItem from="1572068622133" duration="51000" />
+      <workItem from="1572068971099" duration="9699000" />
+      <workItem from="1572083357736" duration="57000" />
+      <workItem from="1572083449537" duration="206000" />
+      <workItem from="1572088082329" duration="4800000" />
+      <workItem from="1572102932361" duration="3927000" />
+      <workItem from="1572148573574" duration="219000" />
+      <workItem from="1572149596984" duration="6403000" />
     </task>
     <servers />
   </component>
