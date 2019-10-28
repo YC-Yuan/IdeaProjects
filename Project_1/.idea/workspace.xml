@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc320a61-cf92-4998-a5ee-3cbb1660f7c6" name="Default Changelist" comment="" />
+    <list default="true" id="dc320a61-cf92-4998-a5ee-3cbb1660f7c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/save0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/save1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/save2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/save3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/save4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/Fighting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/Fighting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/GameMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/GameMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/MapFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/MapFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/OrderPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/OrderPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project_1/PRINT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project_1/PRINT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fighting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrderPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PRINT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PRINT.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +170,14 @@
       <workItem from="1572148573574" duration="219000" />
       <workItem from="1572149596984" duration="6403000" />
       <workItem from="1572160809921" duration="16000" />
+      <workItem from="1572171631778" duration="3537000" />
+      <workItem from="1572175234446" duration="3754000" />
+      <workItem from="1572227425831" duration="2311000" />
+      <workItem from="1572238626337" duration="1505000" />
+      <workItem from="1572240229894" duration="346000" />
+      <workItem from="1572241999043" duration="1633000" />
+      <workItem from="1572243680745" duration="2024000" />
+      <workItem from="1572252200027" duration="773000" />
     </task>
     <servers />
   </component>
